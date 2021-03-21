@@ -1,11 +1,12 @@
 var data;
 
-try {
-    data = JSON.parse(fs.readFileSync('richter.json'));
-} catch ( err ) {
-   // handle your file not found (or other error) here
-}
+//try {
+//    data = JSON.parse(fs.readFileSync('richter.json'));
+//} catch ( err ) {
+//   // handle your file not found (or other error) here
+//}
 
+var data =
   // Builds the HTML Table out of data.
   function buildHtmlTable(selector) {
     var columns = addAllColumnHeaders(data, selector);

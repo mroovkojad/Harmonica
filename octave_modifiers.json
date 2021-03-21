@@ -1,0 +1,17 @@
+[
+    {
+        "octave_shift": -2,
+        "name": "Low Low",
+        "abbreviation": "LL"
+    },
+    {
+        "octave_shift": -1,
+        "name": "Low",
+        "abbreviation": "L"
+    },
+    {
+        "octave_shift": -2,
+        "name": "High",
+        "abbreviation": "H"
+    }
+]

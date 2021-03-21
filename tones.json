@@ -1,0 +1,57 @@
+[
+    {
+      "value": 1,
+      "name": "C"
+    },
+    {
+       "value":2,
+       "name": "D♭",
+       "name_sharp":"C♯"
+    },
+    {
+        "value":3,
+        "name": "D"
+    },
+    {
+        "value":4,
+        "name": "E♭",
+        "name_sharp":"D♯"
+     },
+     {
+         "value":5,
+         "name": "E"
+     },
+     {
+        "value":6,
+        "name": "F"
+    },
+     {
+        "value":7,
+        "name": "G♭",
+        "name_sharp":"F♯"
+     },
+     {
+        "value":8,
+        "name": "G"
+     },
+     {
+        "value":9,
+        "name": "A♭",
+        "name_sharp":"G♯"
+     },
+     {
+        "value":10,
+        "name": "A"
+     },
+     {
+        "value":11,
+        "name": "B♭",
+        "name_sharp":"A♯",
+        "european_name":"B"
+     },
+     {
+        "value":12,
+        "name": "B",
+        "european_name":"H"
+     }
+    ]

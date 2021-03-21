@@ -21,8 +21,8 @@ function tableCreate() {
       td.style.width = '30px'
       td.style.height = '30px'
       td.style.border = '1px solid black';
-      
-      if (i==articulaions[k].holeNumber && j==articulaions[k].row){
+
+      if (i==3 ){
         td.appendChild(document.createTextNode(articulaions[k].value));
         k++
       } else{

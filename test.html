@@ -7,11 +7,53 @@
     <title>Harmonica Tabs</title>
     <link rel="stylesheet" href="harmonica.css" />
   </head>
-  <script src="test.js"></script>
+  <script>
 
-  <body onLoad="buildHtmlTable('#excelDataTable')">
-    <table id="excelDataTable" border="1">
+var harmonica ={
+    "tuming":"richter",
+    "key":"C",
+    "rows":8,
+    "holes":10,
+    "articulations":
+[
+    {
+        "hole": 10,
+        "row": 0,
+        "value": 34,
+        "technique": "blow_bend_2"
+    },
+    {
+        "hole": 1,
+        "row": 1,
+        "value": 4,
+        "technique": "overblow"
+    }]}
+
+    function buildHtmlTable(selector) {
+    var columns = addAllColumnHeaders(harmonica, selector);
+    var a = 0;
+
+    for (var row = 0; row < harmonica.rows; row++) {
+      var row$ = $('<tr/>');
+      for (var hole = 0; holw < harmonica.holes; hole++) {
+        var articulation = harmonica.articulations[a];
+        if (articulation.hole == hole && articulation.row == row){
+            cellValue = articulation.value
+            row$.append($('<td/>').html(cellValue));
+            a++;
+        }
+        else{
+            
+        }
+      }
+      $(selector).append(row$);
+    }
+  }
+
+   </script>
+
+  <body onLoad="buildHtmlTable('#harmonica')">
+    <table id="harmonica" border="1">
     </table>
-  </body>
   </body>
 </html>
