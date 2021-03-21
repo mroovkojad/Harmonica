@@ -11,8 +11,6 @@
     overflow:hidden;
 }
 
-
-
 .circled {
     border-radius: 50%;
     display: inline-block;
@@ -162,11 +160,15 @@ p{
 /*  Techniques */
 
 .double_blow_bend {
-    background-color: #b71c1c
+    background-color: #d32f20
 }
 
 .blow_bend {
     background-color: #d32f2f
+}
+
+.blow {
+    background-color: #d3422f
 }
 
 .overblow {
@@ -181,7 +183,7 @@ p{
     background-color: #5791fd
 }
 
-.dauble_draw_bend {
+.double_draw_bend {
     background-color: #397afd
 }
 
@@ -191,4 +193,10 @@ p{
 
 .overdraw {
     background-color: purple
+}
+
+.hole_number {
+    background-color: white;
+    font-weight: bold;
+    border-style : 2px;
 }
