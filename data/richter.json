@@ -6,7 +6,7 @@
     {
         "hole": 10,
         "row": 0,
-        "value": 34,
+        "value": 35,
         "technique": "double_blow_bend"
     },
     {
@@ -18,25 +18,25 @@
     {
         "hole": 4,
         "row": 1,
-        "value": 15,
+        "value": 16,
         "technique": "overblow"
     },
     {
         "hole": 5,
         "row": 1,
-        "value": 18,
+        "value": 19,
         "technique": "overblow"
     },
     {
         "hole": 6,
         "row": 1,
-        "value": 22,
+        "value": 23,
         "technique": "overblow"
     },
     {
         "hole": 8,
         "row": 1,
-        "value": 27,
+        "value": 28,
         "technique": "blow_bend"
     },
     {
@@ -48,7 +48,7 @@
     {
         "hole": 10,
         "row": 1,
-        "value": 35,
+        "value": 36,
         "technique": "blow_bend"
     },
     {
@@ -78,25 +78,25 @@
     {
         "hole": 5,
         "row": 2,
-        "value": 16,
+        "value": 17,
         "technique": "blow"
     },
     {
         "hole": 6,
         "row": 2,
-        "value": 19,
+        "value": 20,
         "technique": "blow"
     },
     {
         "hole": 7,
         "row": 2,
-        "value": 24,
+        "value": 25,
         "technique": "blow"
     },
     {
         "hole": 8,
         "row": 2,
-        "value": 28,
+        "value": 29,
         "technique": "blow"
     },
     {
@@ -108,7 +108,7 @@
     {
         "hole": 10,
         "row": 2,
-        "value": 36,
+        "value": 37,
         "technique": "blow"
     },
     {
@@ -198,37 +198,37 @@
     {
         "hole": 5,
         "row": 4,
-        "value": 17,
+        "value": 18,
         "technique": "draw"
     },
     {
         "hole": 6,
         "row": 4,
-        "value": 21,
+        "value": 22,
         "technique": "draw"
     },
     {
         "hole": 7,
         "row": 4,
-        "value": 23,
+        "value": 24,
         "technique": "draw"
     },
     {
         "hole": 8,
         "row": 4,
-        "value": 26,
+        "value": 27,
         "technique": "draw"
     },
     {
         "hole": 9,
         "row": 4,
-        "value": 29,
+        "value": 30,
         "technique": "draw"
     },
     {
         "hole": 10,
         "row": 4,
-        "value": 33,
+        "value": 34,
         "technique": "draw"
     },
     {
@@ -258,25 +258,25 @@
     {
         "hole": 6,
         "row": 5,
-        "value": 20,
+        "value": 21,
         "technique": "draw_bend"
     },
     {
         "hole": 7,
         "row": 5,
-        "value": 25,
+        "value": 26,
         "technique": "overdraw"
     },
     {
         "hole": 9,
         "row": 5,
-        "value": 30,
+        "value": 33,
         "technique": "overdraw"
     },
     {
         "hole": 10,
         "row": 5,
-        "value": 37,
+        "value": 38,
         "technique": "overdraw"
     },
     {
