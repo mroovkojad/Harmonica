@@ -1,0 +1,300 @@
+{
+  "tuning":"Richter",
+  "holes":10,
+  "rows":8,
+   "articulations": [
+    {
+        "hole": 10,
+        "row": 0,
+        "value": 35,
+        "technique": "double_blow_bend"
+    },
+    {
+        "hole": 1,
+        "row": 1,
+        "value": 4,
+        "technique": "overblow"
+    },
+    {
+        "hole": 4,
+        "row": 1,
+        "value": 16,
+        "technique": "overblow"
+    },
+    {
+        "hole": 5,
+        "row": 1,
+        "value": 19,
+        "technique": "overblow"
+    },
+    {
+        "hole": 6,
+        "row": 1,
+        "value": 23,
+        "technique": "overblow"
+    },
+    {
+        "hole": 8,
+        "row": 1,
+        "value": 28,
+        "technique": "blow_bend"
+    },
+    {
+        "hole": 9,
+        "row": 1,
+        "value": 31,
+        "technique": "blow_bend"
+    },
+    {
+        "hole": 10,
+        "row": 1,
+        "value": 36,
+        "technique": "blow_bend"
+    },
+    {
+        "hole": 1,
+        "row": 2,
+        "value": 1,
+        "technique": "blow"
+    },
+    {
+        "hole": 2,
+        "row": 2,
+        "value": 5,
+        "technique": "blow"
+    },
+    {
+        "hole": 3,
+        "row": 2,
+        "value": 8,
+        "technique": "blow"
+    },
+    {
+        "hole": 4,
+        "row": 2,
+        "value": 13,
+        "technique": "blow"
+    },
+    {
+        "hole": 5,
+        "row": 2,
+        "value": 17,
+        "technique": "blow"
+    },
+    {
+        "hole": 6,
+        "row": 2,
+        "value": 20,
+        "technique": "blow"
+    },
+    {
+        "hole": 7,
+        "row": 2,
+        "value": 25,
+        "technique": "blow"
+    },
+    {
+        "hole": 8,
+        "row": 2,
+        "value": 29,
+        "technique": "blow"
+    },
+    {
+        "hole": 9,
+        "row": 2,
+        "value": 32,
+        "technique": "blow"
+    },
+    {
+        "hole": 10,
+        "row": 2,
+        "value": 37,
+        "technique": "blow"
+    },
+    {
+        "hole": 1,
+        "row": 3,
+        "value": 1,
+        "technique": "hole_number"
+    },
+    {
+        "hole": 2,
+        "row": 3,
+        "value": 2,
+        "technique": "hole_number"
+    },
+    {
+        "hole": 3,
+        "row": 3,
+        "value": 3,
+        "technique": "hole_number"
+    },
+    {
+        "hole": 4,
+        "row": 3,
+        "value": 4,
+        "technique": "hole_number"
+    },
+    {
+        "hole": 5,
+        "row": 3,
+        "value": 5,
+        "technique": "hole_number"
+    },
+    {
+        "hole": 6,
+        "row": 3,
+        "value": 6,
+        "technique": "hole_number"
+    },
+    {
+        "hole": 7,
+        "row": 3,
+        "value": 7,
+        "technique": "hole_number"
+    },
+    {
+        "hole": 8,
+        "row": 3,
+        "value": 8,
+        "technique": "hole_number"
+    },
+    {
+        "hole": 9,
+        "row": 3,
+        "value": 9,
+        "technique": "hole_number"
+    },
+    {
+        "hole": 10,
+        "row": 3,
+        "value": 10,
+        "technique": "hole_number"
+    },
+    {
+        "hole": 1,
+        "row": 4,
+        "value": 3,
+        "technique": "draw"
+    },
+    {
+        "hole": 2,
+        "row": 4,
+        "value": 8,
+        "technique": "draw"
+    },
+    {
+        "hole": 3,
+        "row": 4,
+        "value": 12,
+        "technique": "draw"
+    },
+    {
+        "hole": 4,
+        "row": 4,
+        "value": 15,
+        "technique": "draw"
+    },
+    {
+        "hole": 5,
+        "row": 4,
+        "value": 18,
+        "technique": "draw"
+    },
+    {
+        "hole": 6,
+        "row": 4,
+        "value": 22,
+        "technique": "draw"
+    },
+    {
+        "hole": 7,
+        "row": 4,
+        "value": 24,
+        "technique": "draw"
+    },
+    {
+        "hole": 8,
+        "row": 4,
+        "value": 27,
+        "technique": "draw"
+    },
+    {
+        "hole": 9,
+        "row": 4,
+        "value": 30,
+        "technique": "draw"
+    },
+    {
+        "hole": 10,
+        "row": 4,
+        "value": 34,
+        "technique": "draw"
+    },
+    {
+        "hole": 1,
+        "row": 5,
+        "value": 2,
+        "technique": "draw_bend"
+    },
+    {
+        "hole": 2,
+        "row": 5,
+        "value": 7,
+        "technique": "draw_bend"
+    },
+    {
+        "hole": 3,
+        "row": 5,
+        "value": 11,
+        "technique": "draw_bend"
+    },
+    {
+        "hole": 4,
+        "row": 5,
+        "value": 14,
+        "technique": "draw_bend"
+    },
+    {
+        "hole": 6,
+        "row": 5,
+        "value": 21,
+        "technique": "draw_bend"
+    },
+    {
+        "hole": 7,
+        "row": 5,
+        "value": 26,
+        "technique": "overdraw"
+    },
+    {
+        "hole": 9,
+        "row": 5,
+        "value": 33,
+        "technique": "overdraw"
+    },
+    {
+        "hole": 10,
+        "row": 5,
+        "value": 38,
+        "technique": "overdraw"
+    },
+    {
+        "hole": 2,
+        "row": 6,
+        "value": 6,
+        "technique": "double_draw_bend"
+    },
+    {
+        "hole": 3,
+        "row": 6,
+        "value": 10,
+        "technique": "double_draw_bend"
+    },
+    {
+        "hole": 3,
+        "row": 7,
+        "value": 9,
+        "technique": "triple_draw_bend"
+    }
+]}

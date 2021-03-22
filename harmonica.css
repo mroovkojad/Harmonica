@@ -11,8 +11,6 @@
     overflow:hidden;
 }
 
-
-
 .circled {
     border-radius: 50%;
     display: inline-block;
@@ -33,10 +31,10 @@
     padding: 5%;
 
 }
-.table{
+.center{
+    margin-left: auto;
+    margin-right: auto;
     display:table;
-    width:100%;
-    height:100%;
 }
 .tab{
     display:table-cell;
@@ -159,14 +157,35 @@ p{
     transform: rotate(-90deg);
 }
 
+/* Diagram table */
+
+tr{
+    height: 50px;
+}
+
+td{
+    width: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+td.hidden{
+    border-style: hidden;
+}
 /*  Techniques */
 
 .double_blow_bend {
-    background-color: #b71c1c
+    background-color: #d32f20
 }
 
 .blow_bend {
     background-color: #d32f2f
+}
+
+.blow {
+    background-color: #d3422f
 }
 
 .overblow {
@@ -174,14 +193,14 @@ p{
 }
 
 .draw {
-    background-color: #97b8fe
+    background-color:#97b8fe
 }
 
 .draw_bend {
     background-color: #5791fd
 }
 
-.dauble_draw_bend {
+.double_draw_bend {
     background-color: #397afd
 }
 
@@ -190,5 +209,11 @@ p{
 }
 
 .overdraw {
-    background-color: purple
+    background-color: mediumorchid
+}
+
+.hole_number {
+    background-color: white;
+    font-weight: bold;
+    border-style : 2px;
 }
