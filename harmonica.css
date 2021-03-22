@@ -31,10 +31,10 @@
     padding: 5%;
 
 }
-.table{
+.center{
+    margin-left: auto;
+    margin-right: auto;
     display:table;
-    width:100%;
-    height:100%;
 }
 .tab{
     display:table-cell;
@@ -157,6 +157,23 @@ p{
     transform: rotate(-90deg);
 }
 
+/* Diagram table */
+
+tr{
+    height: 50px;
+}
+
+td{
+    width: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+td.hidden{
+    border-style: hidden;
+}
 /*  Techniques */
 
 .double_blow_bend {
@@ -176,7 +193,7 @@ p{
 }
 
 .draw {
-    background-color: #97b8fe
+    background-color:#97b8fe
 }
 
 .draw_bend {
@@ -192,7 +209,7 @@ p{
 }
 
 .overdraw {
-    background-color: purple
+    background-color: mediumorchid
 }
 
 .hole_number {
