@@ -1,4 +1,4 @@
-let harmonica, tones;
+var harmonica, tones;
 
 $.getJSON("./data/tones.json", function (json) {
   tones = json;
@@ -14,8 +14,9 @@ function draw_diagram() {
     table_title = document.createElement("h1"),
     table = document.createElement("table");
 
-  let tone_shift = document.getElementById("key_selector").value - 1;
-  let key =  tones[one_shift].name;
+    console.log("test");
+  var tone_shift = document.getElementById("key_selector").value - 1;
+  var key =  tones[one_shift].name;
   // Clear existing diagram
   table_title_div.innerHTML = "";
   table_div.innerHTML = "";
@@ -27,14 +28,14 @@ function draw_diagram() {
   table.className = "center";
 
   // k iterates through articualtions array
-  let k = 0;
+  var k = 0;
   // set articulations to initial k value
-  let row = harmonica.articulations[k].row;
+  var row = harmonica.articulations[k].row;
   // hole numbers correspond to real harmonica and start at 1 not 0, hence correction
-  let hole = harmonica.articulations[k].hole - 1;
-  let value = harmonica.articulations[k].value;
-  let total_articulations = harmonica.articulations.length;
-  let technique = harmonica.articulations[k].technique;
+  var hole = harmonica.articulations[k].hole - 1;
+  var value = harmonica.articulations[k].value;
+  var total_articulations = harmonica.articulations.length;
+  var technique = harmonica.articulations[k].technique;
 
   // base tone of harmonica
   // var starting_tone = "G";
@@ -47,10 +48,10 @@ function draw_diagram() {
   tone = tones[tone_id].name;
 
   // i iterates table rows
-  for (let i = 0; i < harmonica.rows; i++) {
+  for (var i = 0; i < harmonica.rows; i++) {
     var tr = table.insertRow();
     // j iterates through columns (holes of harmonica)
-    for (let j = 0; j < harmonica.holes; j++) {
+    for (var j = 0; j < harmonica.holes; j++) {
       var td = tr.insertCell();
       // if articulation described in JSON its row and hole matches
       // k iterates through articualtions
@@ -82,10 +83,7 @@ function draw_diagram() {
   }
 }
 
-function start() {
-  create_key_selector();
-  draw_diagram();
-}
+
 
 function create_key_selector() {
   var div = document.getElementById("selector_div");
@@ -98,10 +96,15 @@ function create_key_selector() {
   div.appendChild(selectList);
 
   //Create and append the options
-  for (let i = 0; i < tones.length; i++) {
+  for (var i = 0; i < tones.length; i++) {
     var option = document.createElement("option");
     option.setAttribute("value", tones[i].value);
     option.text = tones[i].name;
     selectList.appendChild(option);
   }
+}
+
+function start() {
+  create_key_selector();
+  draw_diagram();
 }

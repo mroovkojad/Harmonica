@@ -121,8 +121,6 @@ p{
     line-height:70px;
     background:#ccc;
 
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     border-radius: 5px;
 }
 
@@ -215,5 +213,5 @@ td.hidden{
 .hole_number {
     background-color: white;
     font-weight: bold;
-    border-style : 2px;
+    border-width: 2px;
 }
